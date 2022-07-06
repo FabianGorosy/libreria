@@ -6,4 +6,9 @@ class Calculator
     {
         return $a + $b;
     }
+    public function creador()
+    {
+        $creador=true;
+        return $creador;
+    }
 }
